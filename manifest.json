@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube RSS Feed",
+  "version": "1.0",
+  "description": "Generate YouTube RSS Feed",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["fetcher.js"]
+    }
+  ]
+}
